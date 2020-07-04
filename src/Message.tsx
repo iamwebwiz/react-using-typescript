@@ -6,7 +6,7 @@ interface UserMessage {
 }
 
 const Message = (props: UserMessage) => {
-    return <p>{props.name}, {props.message}</p>
+    return <p>Hi {props.name}, {props.message}</p>
 }
 
 export default Message

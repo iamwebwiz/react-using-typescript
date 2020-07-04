@@ -13,7 +13,7 @@ class App extends React.Component<any> {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <Message message="Welcome to TypeScript Universe!!" name='Ezekiel'/>
+                    <Message message="welcome to TypeScript Universe!!" name='Ezekiel'/>
                 </header>
             </div>
         )
