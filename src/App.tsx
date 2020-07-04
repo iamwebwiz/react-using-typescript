@@ -10,18 +10,6 @@ const initialState = {
 
 type State = Readonly<typeof initialState>
 
-const messageHoc = (WrappedComponent: any) => {
-    class HOC extends React.Component<{}, State> {
-        readonly state: State = initialState
-
-        render() {
-            return (
-                <WrappedComponent name={this.state.name} message={this.state.message} />
-            )
-        }
-    }
-}
-
 class App extends React.Component<any, State> {
     readonly state: State = initialState
 

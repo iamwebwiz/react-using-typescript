@@ -5,8 +5,6 @@ interface UserMessage {
     message: string
 }
 
-const Message = (props: UserMessage) => {
-    return <p>Hi {props.name}, {props.message}</p>
-}
+const Message = (props: any): any => <p>Hi {props.name}, {props.message}</p>
 
 export default Message
